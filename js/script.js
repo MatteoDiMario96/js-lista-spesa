@@ -6,5 +6,7 @@ let i = 0;
 
 while(i < listaSpesa.length - 1){
     i++
-    
+    const liEl = document.createElement("li");
+    liEl.append(listaSpesa[i]);
+    ulAppend.appendChild(liEl);    
 }
