@@ -19,11 +19,12 @@ main{
     background-color: #874ccc;
     color: #052053;
     height: calc(100vh - 102.4px);
+    padding-bottom: 2rem;
 }
 
 ul {
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     list-style-type: none;
     margin-bottom: 3rem;
     list-style-type: circle;
