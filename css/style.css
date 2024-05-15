@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+
+    background-color: #c65bcf;
+    color: #072c70;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #874ccc;
+    color: #072c70;
+    height: calc(100vh - 102.4px);
+}
+
+ul {
+    margin: 0 auto;
+    margin-top: 3rem;
+    list-style-type: none;
+    margin-bottom: 3rem;
+    list-style-type: circle;
+}
+
+li {
+    margin-bottom: 1rem;
+    font-size: 20px;
+    text-decoration: underline;
+}
